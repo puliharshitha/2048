@@ -1,0 +1,104 @@
+body {
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif; /* Pixel font */
+    text-align: center;
+    background-color: #3a5a40; 
+    image-rendering: pixelated;
+    color: #f1faee;
+}
+
+hr {
+    width: 500px;
+    border: 2px;
+    border-top: 4px dotted #588157;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: #132a13; 
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 4px solid #588157;
+    font-size: 20px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    image-rendering: pixelated;
+    margin: .5px;
+    border-radius: 10px;
+}
+
+
+.x2 {
+    background-color: #606c38; 
+    color: #faedcd;
+}
+
+.x4 {
+    background-color: #31572c;
+    color: #faedcd;
+}
+
+.x8 {
+    background-color: #283618;
+    color: #faedcd;
+}
+
+.x16 {
+    background-color: #283618;
+    color: #faedcd;
+}
+
+.x32 {
+    background-color: #283618;
+    color: #faedcd;
+}
+
+.x64 {
+    background-color: #3a5a40;
+    color: #faedcd;
+}
+
+.x128 {
+    background-color: #3a5a40;
+    color: #faedcd;
+}
+
+.x256 {
+    background-color: #3a5a40;
+    color: #faedcd;
+}
+
+.x512 {
+    background-color: #1b4332;
+    color: #faedcd;
+}
+
+.x1024 {
+    background-color: #1b4332;
+    color: #f1faee;
+}
+
+.x2048 {
+    background-color: #1b4332;
+    color: #faedcd;
+}
+
+.x4096 {
+    background-color: #081c15; /* brighter aqua */
+    color: #faedcd;
+}
+
+.x8192 {
+    background-color: #081c15; /* vivid cyan */
+    color: #faedcd;
+}
